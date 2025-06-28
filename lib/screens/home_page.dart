@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
       ),
 
 
-      body: Column(
+      body: Wrap(
         children: [
           category(
             text: "Numbers",
@@ -87,6 +87,7 @@ class HomePage extends StatelessWidget {
               );
             },
           ),
+
         ],
       ),
     );
